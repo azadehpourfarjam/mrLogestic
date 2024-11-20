@@ -42,6 +42,12 @@
     .feature-title{
         font-size: 28px;
     }
+    /* deal-transport */
+    .deal-transport{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     /* articles */
     .articles-wrapper{
         display: block;

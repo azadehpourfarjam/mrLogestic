@@ -31,8 +31,12 @@
          width: 100%;
          height: 100vh;
          z-index:1;
-         display: none;
+
      }
+     /* display */
+    .d-none{
+        display: none;
+    }
      .nav-box{
          position: absolute;
          right: -1000px;
@@ -82,10 +86,23 @@
         font-size: 28px;
     }
 
-    .btn-start{
+    .start-parent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .features .start-parent .btn-start{
         display: block;
-        width: 100%;
+        width: 300px;
         text-align: center;
+    }
+    /* deal-transport */
+    .deal-transport{
+        display: block;
+    }
+    .deal-transport>div{
+        display: block;
+        margin-bottom: 30px;
     }
     /* articles */
     .articles-wrapper{

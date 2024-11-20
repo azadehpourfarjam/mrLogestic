@@ -1,9 +1,24 @@
-let mobile=document.querySelector('.mobile');
 let navWrapper=document.querySelector('.nav-wrapper');
+window.addEventListener('resize',function (){
+    if (this.body.innerWidth<992){
+        navWrapper.classList.add('d-none')
+    }else if (this.innerWidth>=992){
+        navWrapper.classList.remove('d-none');
+    }
+})
+
+
+
+//.................... ...........................
+let mobile=document.querySelector('.mobile');
+//let navWrapper=document.querySelector('.nav-wrapper');
 let navBox=document.querySelector('.nav-box');
 let close=document.querySelector('.close-box>.close');
 mobile.addEventListener('click',function (){
-    navWrapper.style.display='block';
+
+    navWrapper.classList.remove('d-none')
+     navWrapper.style.display='block';
+  //  navWrapper.classList.add('d-block')
     setTimeout(function (){
         navBox.style.right=0
     },100)
