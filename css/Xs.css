@@ -70,8 +70,9 @@
     .home-banner>div:nth-of-type(2)>h1{
         font-size: 24px;
     }
+
     .home-banner>div:nth-of-type(2)>p{
-        font-size: 18px;
+        font-size: 17px;
     }
     /* companies logos */
     .companies-logo{
@@ -106,6 +107,10 @@
     }
     .deal-transport>div{
         margin-bottom: 30px;
+    }
+    .deal-transport>div>span:nth-of-type(2){
+        position: relative;
+        top: 5px;
     }
     /* articles */
     .articles-wrapper{

@@ -68,6 +68,7 @@
         height: 400px;
     }
 
+
     /* features */
     .features{
         flex-wrap: wrap;
@@ -96,6 +97,10 @@
     }
     .deal-transport>div{
         margin-bottom: 30px;
+    }
+    .deal-transport>div>span:nth-of-type(2){
+        position: relative;
+        top: 5px;
     }
     /* articles */
     .articles-wrapper{

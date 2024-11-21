@@ -98,12 +98,12 @@
     }
     /* deal-transport */
     .deal-transport{
-        display: block;
+
     }
     .deal-transport>div{
-        display: block;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
+    
     /* articles */
     .articles-wrapper{
         display: block;

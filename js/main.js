@@ -1,9 +1,12 @@
 let navWrapper=document.querySelector('.nav-wrapper');
 window.addEventListener('resize',function (){
-    if (this.body.innerWidth<992){
+    if (this.innerWidth<992){
+        navWrapper.classList.remove('d-block')
         navWrapper.classList.add('d-none')
     }else if (this.innerWidth>=992){
         navWrapper.classList.remove('d-none');
+        navWrapper.classList.add('d-block');
+        console.log(navWrapper.classList)
     }
 })
 
@@ -16,9 +19,8 @@ let navBox=document.querySelector('.nav-box');
 let close=document.querySelector('.close-box>.close');
 mobile.addEventListener('click',function (){
 
-    navWrapper.classList.remove('d-none')
-     navWrapper.style.display='block';
-  //  navWrapper.classList.add('d-block')
+    navWrapper.classList.remove('d-none');
+   navWrapper.classList.add('d-block')
     setTimeout(function (){
         navBox.style.right=0
     },100)
@@ -27,7 +29,8 @@ mobile.addEventListener('click',function (){
 close.addEventListener('click',function (){
     navBox.style.right='-1000px';
     setTimeout(function (){
-        navWrapper.style.display='none';
+        navWrapper.classList.remove('d-block');
+        navWrapper.classList.add('d-none');
     },100)
 
 })
