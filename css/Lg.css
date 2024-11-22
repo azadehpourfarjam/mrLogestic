@@ -56,4 +56,11 @@
         display: block;
         margin: 50px auto;
     }
+    /* footer */
+    .footer-wrapper{
+        display: block;
+    }
+    .footer-item{
+        margin-bottom: 30px;
+    }
 }

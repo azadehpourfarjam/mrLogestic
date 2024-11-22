@@ -291,10 +291,10 @@ a{
 
 @keyframes slide_rtl {
     0%{
-        left: 0;
+        transform: translateX(-3.9%);
     }
-    100%{
-       left: 200px;
+    to{
+       transform: translateX(100%);
     }
 }
 .logos-animation{
@@ -333,6 +333,9 @@ a{
 }
 .bg-primary{
     background-color: rgba(201, 230, 240, 0.28);
+}
+.bg-neutral{
+    background-color: rgba(255,255,255,.5);
 }
 
 /* border */
