@@ -104,6 +104,10 @@
     .deal-transport>div{
         margin-bottom: 50px;
     }
+    /* platform */
+    .platform .btn-start{
+        width: 100%;
+    }
     
     /* articles */
     .articles-wrapper{
@@ -111,6 +115,12 @@
     }
     .articles-wrapper .article-item{
         display: block;
+        margin: 50px auto;
+    }
+    /* edu-videos */
+
+    .video-item{
+        width: 350px;
         margin: 50px auto;
     }
     /* footer */

@@ -113,12 +113,21 @@
         position: relative;
         top: 5px;
     }
+    /* platform */
+    .platform .btn-start{
+        width: 100%;
+    }
     /* articles */
     .articles-wrapper{
         display: block;
     }
     .articles-wrapper .article-item{
         display: block;
+        margin: 50px auto;
+    }
+
+    .video-item{
+        width: 350px;
         margin: 50px auto;
     }
     /* footer */

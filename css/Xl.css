@@ -50,9 +50,35 @@
         justify-content: space-between;
     }
     /* platform */
-    .platform>div:nth-of-type(1)>div:nth-of-type(2){
-        margin-right: 100px;
+    .platform>div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
+
+    .platform .btn-start{
+        width: 300px;
+    }
+    /* articles */
+    .articles-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .articles-wrapper .article-item{
+        margin: auto auto;
+    }
+    /* edu-videos */
+    .videos-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .video-item{
+        width: 350px;
+        margin: auto auto;
+    }
+
     /* footer */
     .footer-wrapper{
         display: flex;
