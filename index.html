@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>مستر لجستیک</title>
     <!-- css -->
-    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -133,74 +132,104 @@
             </span>
         </div>
     </section>
-<!--    &lt;!&ndash; &ndash;&gt;-->
-<!--    <section class="popular-route py-30 px-10">-->
-<!--        <h1 class="d-flex align-items-center justify-content-center">-->
-<!--            <span class="d-block py-10 line-red font-28 position-relative">مسیرهای پرطرفدار</span>-->
-<!--        </h1>-->
-<!--       <div class="d-flex align-items-center justify-content-space-between p-20 mt-30 position-relative slide_rtl">-->
-<!--           <a href="#" class="d-block">-->
-<!--               <div class="border-lightgrey radius-5 p-20" style="width: 350px;">-->
-<!--                   <div class="d-flex align-items-center">-->
-<!--                       <img src="./images/flags/ir.svg" width="24" height="24" class="radius-circle" alt="">-->
-<!--                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Iran</span>-->
-<!--                       <span class="directionRight fa fa-arrow-right mx-10 text-medium-black font-16"></span>-->
-<!--                       <img src="./images/flags/tr.svg" width="24" height="24" class="radius-circle" alt="">-->
-<!--                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Turkey</span>-->
-<!--                   </div>-->
-<!--                   <div class="d-flex align-items-center justify-content-space-between mt-40">-->
-<!--                       <div><span class="text-black font-18">USD 2000</span></div>-->
-<!--                       <div class="text-medium-black"><span class="font-18">FLC</span><span class="font-16 ml-5">20'ST</span></div>-->
-<!--                   </div>-->
-<!--               </div>-->
-<!--           </a>-->
-<!--           <a href="#" class="d-block">-->
-<!--               <div class="border-lightgrey radius-5 p-20" style="width: 350px;">-->
-<!--                   <div class="d-flex align-items-center">-->
-<!--                       <img src="./images/flags/in.svg" width="24" height="24" class="radius-circle" alt="">-->
-<!--                       <span class="ml-10 text-black" style="position: relative;top: 2px;">India</span>-->
-<!--                       <span class="directionRight fa fa-arrow-right mx-10 text-medium-black font-16"></span>-->
-<!--                       <img src="./images/flags/tr.svg" width="24" height="24" class="radius-circle" alt="">-->
-<!--                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Iran</span>-->
-<!--                   </div>-->
-<!--                   <div class="d-flex align-items-center justify-content-space-between mt-40">-->
-<!--                       <div><span class="text-black font-18">USD 2000</span></div>-->
-<!--                       <div class="text-medium-black"><span class="font-18">FLC</span><span class="font-16 ml-5">20'ST</span></div>-->
-<!--                   </div>-->
-<!--               </div>-->
-<!--           </a>-->
-<!--           <a href="#" class="d-block">-->
-<!--               <div class="border-lightgrey radius-5 p-20" style="width: 350px;">-->
-<!--                   <div class="d-flex align-items-center">-->
-<!--                       <img src="./images/flags/ir.svg" width="24" height="24" class="radius-circle" alt="">-->
-<!--                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Iran</span>-->
-<!--                       <span class="directionRight fa fa-arrow-right mx-10 text-medium-black font-16"></span>-->
-<!--                       <img src="./images/flags/az.svg" width="24" height="24" class="radius-circle" alt="">-->
-<!--                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Azerbaijan</span>-->
-<!--                   </div>-->
-<!--                   <div class="d-flex align-items-center justify-content-space-between mt-40">-->
-<!--                       <div><span class="text-black font-18">USD 2000</span></div>-->
-<!--                       <div class="text-medium-black"><span class="font-18">FLC</span><span class="font-16 ml-5">20'ST</span></div>-->
-<!--                   </div>-->
-<!--               </div>-->
-<!--           </a>-->
-<!--           <a href="#" class="d-block">-->
-<!--               <div class="border-lightgrey radius-5 p-20" style="width: 350px;">-->
-<!--                   <div class="d-flex align-items-center">-->
-<!--                       <img src="./images/flags/ir.svg" width="24" height="24" class="radius-circle" alt="">-->
-<!--                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Iran</span>-->
-<!--                       <span class="directionRight fa fa-arrow-right mx-10 text-medium-black font-16"></span>-->
-<!--                       <img src="./images/flags/af.svg" width="24" height="24" class="radius-circle" alt="">-->
-<!--                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Afghanistan</span>-->
-<!--                   </div>-->
-<!--                   <div class="d-flex align-items-center justify-content-space-between mt-40">-->
-<!--                       <div><span class="text-black font-18">USD 2000</span></div>-->
-<!--                       <div class="text-medium-black"><span class="font-18">FLC</span><span class="font-16 ml-5">20'ST</span></div>-->
-<!--                   </div>-->
-<!--               </div>-->
-<!--           </a>-->
-<!--       </div>-->
-<!--    </section>-->
+    <!-- -->
+    <section class="popular-route py-30 px-10 logos-animation-wrapper" style="overflow-x: hidden;width: 90%;margin: auto auto;">
+        <h1 class="d-flex align-items-center justify-content-center">
+            <span class="d-block py-10 line-red font-28 position-relative">مسیرهای پرطرفدار</span>
+        </h1>
+       <div class="d-flex align-items-center mt-30 position-relative logos-animation">
+           <a href="#" class="d-block ml-20">
+               <div class="border-lightgrey radius-5 p-20" style="width: 350px;">
+                   <div class="d-flex align-items-center">
+                       <img src="./images/flags/ir.svg" width="24" height="24" class="radius-circle" alt="">
+                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Iran</span>
+                       <span class="directionRight fa fa-arrow-right mx-10 text-medium-black font-16"></span>
+                       <img src="./images/flags/tr.svg" width="24" height="24" class="radius-circle" alt="">
+                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Turkey</span>
+                   </div>
+                   <div class="d-flex align-items-center justify-content-space-between mt-40">
+                       <div><span class="text-black font-18">USD 2000</span></div>
+                       <div class="text-medium-black"><span class="font-18">FLC</span><span class="font-16 ml-5">20'ST</span></div>
+                   </div>
+               </div>
+           </a>
+           <a href="#" class="d-block ml-20">
+               <div class="border-lightgrey radius-5 p-20" style="width: 350px;">
+                   <div class="d-flex align-items-center">
+                       <img src="./images/flags/in.svg" width="24" height="24" class="radius-circle" alt="">
+                       <span class="ml-10 text-black" style="position: relative;top: 2px;">India</span>
+                       <span class="directionRight fa fa-arrow-right mx-10 text-medium-black font-16"></span>
+                       <img src="./images/flags/tr.svg" width="24" height="24" class="radius-circle" alt="">
+                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Iran</span>
+                   </div>
+                   <div class="d-flex align-items-center justify-content-space-between mt-40">
+                       <div><span class="text-black font-18">USD 2000</span></div>
+                       <div class="text-medium-black"><span class="font-18">FLC</span><span class="font-16 ml-5">20'ST</span></div>
+                   </div>
+               </div>
+           </a>
+           <a href="#" class="d-block ml-20">
+               <div class="border-lightgrey radius-5 p-20" style="width: 350px;">
+                   <div class="d-flex align-items-center">
+                       <img src="./images/flags/ir.svg" width="24" height="24" class="radius-circle" alt="">
+                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Iran</span>
+                       <span class="directionRight fa fa-arrow-right mx-10 text-medium-black font-16"></span>
+                       <img src="./images/flags/az.svg" width="24" height="24" class="radius-circle" alt="">
+                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Azerbaijan</span>
+                   </div>
+                   <div class="d-flex align-items-center justify-content-space-between mt-40">
+                       <div><span class="text-black font-18">USD 2000</span></div>
+                       <div class="text-medium-black"><span class="font-18">FLC</span><span class="font-16 ml-5">20'ST</span></div>
+                   </div>
+               </div>
+           </a>
+           <a href="#" class="d-block ml-20">
+               <div class="border-lightgrey radius-5 p-20" style="width: 350px;">
+                   <div class="d-flex align-items-center">
+                       <img src="./images/flags/ir.svg" width="24" height="24" class="radius-circle" alt="">
+                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Iran</span>
+                       <span class="directionRight fa fa-arrow-right mx-10 text-medium-black font-16"></span>
+                       <img src="./images/flags/af.svg" width="24" height="24" class="radius-circle" alt="">
+                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Afghanistan</span>
+                   </div>
+                   <div class="d-flex align-items-center justify-content-space-between mt-40">
+                       <div><span class="text-black font-18">USD 2000</span></div>
+                       <div class="text-medium-black"><span class="font-18">FLC</span><span class="font-16 ml-5">20'ST</span></div>
+                   </div>
+               </div>
+           </a>
+           <a href="#" class="d-block ml-20">
+               <div class="border-lightgrey radius-5 p-20" style="width: 350px;">
+                   <div class="d-flex align-items-center">
+                       <img src="./images/flags/ir.svg" width="24" height="24" class="radius-circle" alt="">
+                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Iran</span>
+                       <span class="directionRight fa fa-arrow-right mx-10 text-medium-black font-16"></span>
+                       <img src="./images/flags/az.svg" width="24" height="24" class="radius-circle" alt="">
+                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Azerbaijan</span>
+                   </div>
+                   <div class="d-flex align-items-center justify-content-space-between mt-40">
+                       <div><span class="text-black font-18">USD 2000</span></div>
+                       <div class="text-medium-black"><span class="font-18">FLC</span><span class="font-16 ml-5">20'ST</span></div>
+                   </div>
+               </div>
+           </a>
+           <a href="#" class="d-block ml-20">
+               <div class="border-lightgrey radius-5 p-20" style="width: 350px;">
+                   <div class="d-flex align-items-center">
+                       <img src="./images/flags/ir.svg" width="24" height="24" class="radius-circle" alt="">
+                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Iran</span>
+                       <span class="directionRight fa fa-arrow-right mx-10 text-medium-black font-16"></span>
+                       <img src="./images/flags/af.svg" width="24" height="24" class="radius-circle" alt="">
+                       <span class="ml-10 text-black" style="position: relative;top: 2px;">Afghanistan</span>
+                   </div>
+                   <div class="d-flex align-items-center justify-content-space-between mt-40">
+                       <div><span class="text-black font-18">USD 2000</span></div>
+                       <div class="text-medium-black"><span class="font-18">FLC</span><span class="font-16 ml-5">20'ST</span></div>
+                   </div>
+               </div>
+           </a>
+       </div>
+    </section>
 <!--    &lt;!&ndash; &ndash;&gt;-->
 <!--    <section class="platform p-20 mt-40">-->
 <!--        <h1 class="d-flex align-items-center justify-content-center">-->
@@ -507,7 +536,6 @@
     </div>
 </footer>
 <!-- js -->
-<script src="./node_modules/swiper/swiper-bundle.min.js"></script>
 <script src="./js/main.js"></script>
 </body>
 </html>
