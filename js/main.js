@@ -17,21 +17,27 @@ let mobile=document.querySelector('.mobile');
 //let navWrapper=document.querySelector('.nav-wrapper');
 let navBox=document.querySelector('.nav-box');
 let close=document.querySelector('.close-box>.close');
+let test=true
 mobile.addEventListener('click',function (){
 
-    navWrapper.classList.remove('d-none');
-   navWrapper.classList.add('d-block')
-    setTimeout(function (){
-        navBox.style.right=0
-    },100)
-
+    if (test===true){
+        navWrapper.classList.remove('d-none');
+        navWrapper.classList.add('d-block')
+        setTimeout(function (){
+            navBox.style.right=0
+        },100)
+     test=false;
+    }
 })
 close.addEventListener('click',function (){
-    navBox.style.right='-1000px';
-    setTimeout(function (){
-        navWrapper.classList.remove('d-block');
-        navWrapper.classList.add('d-none');
-    },100)
+ if (test===false){
+     navBox.style.right='-1000px';
+     setTimeout(function (){
+         navWrapper.classList.remove('d-block');
+         navWrapper.classList.add('d-none');
+     },100)
+     test=true;
+ }
 
 })
 //............................... logos slider ....................

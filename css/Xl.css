@@ -78,6 +78,10 @@
         width: 350px;
         margin: auto auto;
     }
+    /* free-guid */
+    .free-guide>.guide-item:nth-of-type(2){
+        margin-right: 100px;
+    }
 
     /* footer */
     .footer-wrapper{
