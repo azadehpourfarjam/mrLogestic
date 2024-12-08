@@ -1,17 +1,3 @@
-let navWrapper=document.querySelector('.nav-wrapper');
-window.addEventListener('resize',function (){
-    if (this.innerWidth<992){
-        navWrapper.classList.remove('d-block')
-        navWrapper.classList.add('d-none')
-    }else if (this.innerWidth>=992){
-        navWrapper.classList.remove('d-none');
-        navWrapper.classList.add('d-block');
-        console.log(navWrapper.classList)
-    }
-})
-
-
-
 //.................... ...........................
 let mobile=document.querySelector('.mobile');
 //let navWrapper=document.querySelector('.nav-wrapper');
@@ -40,6 +26,22 @@ close.addEventListener('click',function (){
  }
 
 })
+//.........................................
+
+let navWrapper=document.querySelector('.nav-wrapper');
+window.addEventListener('resize',function (){
+    if (this.innerWidth<992){
+        navWrapper.classList.remove('d-block')
+        navWrapper.classList.add('d-none')
+    }else if (this.innerWidth>=992){
+        navWrapper.classList.remove('d-none');
+        navWrapper.classList.add('d-block');
+        console.log(navWrapper.classList)
+    }
+})
+
+
+
 //............................... logos slider ....................
 
 

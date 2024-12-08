@@ -18,11 +18,14 @@
         border: none;
         background-color: transparent;
         color: black;
-        font-size: 18px;
+        font-size: 24px;
         cursor: pointer;
     }
     .mobile{
         margin-left: 40px;
+    }
+    .mobile>span , .close>span{
+        font-size: 22px;
     }
     .nav-wrapper{
         position: absolute;
